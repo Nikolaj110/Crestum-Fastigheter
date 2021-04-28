@@ -26,7 +26,7 @@ window.onclick = function(event) {
       }
     }
     menuItems.forEach((item) => {
-        targetMenu.contains.remove("show");
-    });
+        item.classList.remove("show");
+    })
   }
 }
