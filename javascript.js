@@ -25,5 +25,8 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
+    menuItems.forEach((item) => {
+        targetMenu.contains.remove("show");
+    });
   }
 }
