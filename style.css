@@ -76,6 +76,42 @@ header p {
   background-color: #ddd;
 }
 
+.aldre-projekt{
+  display: none;
+  position: relative;
+  background-color: white;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  left:8vw;
+  width: 30%;
+}
+
+.aldre-projekt a{
+  text-decoration: none;
+  font-size: 3vh;
+  margin-left: 5vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.framtida-projekt{
+  display: none;
+  position: relative;
+  background-color: white;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  left:18vw;
+  width: 30%;
+}
+
+.framtida-projekt a{
+  text-decoration: none;
+  font-size: 3vh;
+  margin-left: 5vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
 .show {
   display: flex;
 }
