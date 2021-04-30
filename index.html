@@ -18,7 +18,7 @@
 
         <div class="meny-bild-div">
             <div class="meny-bild">
-                <i onclick="oppnaMeny()" class="fas fa-bars"></i>
+                <i class="fas fa-bars"></i>
             </div>
             
         </div>
@@ -29,19 +29,27 @@
     </header>
 
     <div id="myDropdown" class="menyn">
-        <a href="#home" class="has-sub-menu" data-linked-menu="aldre-projekt-id">Äldre projekt</a>
-        <a href="#about" class="has-sub-menu" data-linked-menu="aldre-projekt-id">Om oss</a>
+        <div class="aldre-projekt-div">
+            <a href="#home" class="has-sub-menu" data-linked-menu="aldre-projekt-id">Äldre projekt</a>
+            <div id="aldre-projekt-id" class="aldre-projekt submenu">
+                <a href="">2012</a>
+                <a href="">2018</a>
+            </div>
+        </div>
+        <div class="aldre-projekt-div">
+            <a href="#about" class="has-sub-menu" data-linked-menu="om-oss-id">Om oss</a>
+            <div id="om-oss-id" class="om-oss submenu">
+                <a href="">2012</a>
+                <a href="">2018</a>
+            </div>
+        </div>
         <a href="#cool" class="has-sub-menu" data-linked-menu="framtida-projekt-id">Framtida projekt</a>
         <a href="#contact" class="has-sub-menu" data-linked-menu="aldre-projekt-id">Kontakta oss</a>
     </div>
 
-    <div id="aldre-projekt-id" class="aldre-projekt">
-        <a href="">2012</a>
-        <a href="">2018</a>
-    </div>
 
 
-    <div id="framtida-projekt-id" class="framtida-projekt">
+    <div id="framtida-projekt-id" class="framtida-projekt submenu">
         <a href="">2013</a>
         <a href="">2019</a>
     </div>
@@ -56,5 +64,7 @@
     <div class="text-ruta2">
         <p class="text2">fejsvnrjdknvj heuich yu gyug yugyui gyuigyuiyuieycft drt rt xer er yefuiop op o</p>
     </div>
+
+
 </body>
 </html>

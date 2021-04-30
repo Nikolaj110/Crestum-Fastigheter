@@ -49,7 +49,6 @@ header p {
   cursor: pointer;
 }
 
-
 .menyn {
   display: none;
   top: 30vh;
@@ -57,11 +56,11 @@ header p {
   background-color: white;
   justify-content: center;
   justify-content: space-evenly;
-  background-color:blue;
+  background-color: blue;
   border-top: solid #b3d1e0 1vh;
 }
 
-.myDropdown{
+.myDropdown {
   display: none;
 }
 
@@ -76,27 +75,30 @@ header p {
   background-color: #ddd;
 }
 
-.aldre-projekt{
+.aldre-projekt {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: white;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
-  left: 9vw;
-  width: 30%;
+  float: left;
+  width: 100%;
+  
 }
 
-.aldre-projekt a{
+.aldre-projekt a {
   text-decoration: none;
   font-size: 3vh;
-  margin-left: 5vw;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  color: black;
+  border:solid 1px black;
+}
+.aldre-projekt-div{
+  position: relative;
 }
 
-.framtida-projekt{
+.framtida-projekt {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: white;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
@@ -104,7 +106,7 @@ header p {
   width: 30%;
 }
 
-.framtida-projekt a{
+.framtida-projekt a {
   text-decoration: none;
   font-size: 3vh;
   margin-left: 5vw;
