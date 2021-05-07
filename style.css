@@ -11,7 +11,6 @@ header {
 }
 body {
   margin: 1vw;
-  /*background-color: #89b5cb;*/
   background-color: #b3d1e0;
 }
 
@@ -103,8 +102,31 @@ header p {
   width: 100%;
 }
 
-
-
 .show {
   display: flex;
+}
+
+.artikel{
+  display: flex;
+  background-color: white;
+  margin-top: 5vh;
+  padding: 1vw;
+  width: 95%;
+  margin-left: 2.5vh;
+}
+
+.skyskrapa-bild{
+  margin-left: 4vw;
+  margin-right: 5vw;
+}
+
+.text-ruta1{
+  margin-left: 2vw;
+  background-color: #66bbcb;
+  color: black;
+  margin-right: 5vw;
+}
+
+.text1{
+  margin: 0;
 }
