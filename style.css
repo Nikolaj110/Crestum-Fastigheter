@@ -74,7 +74,7 @@ header p {
   text-decoration: none;
 }
 
-.menyn a:hover{
+.menyn a:hover {
   color: #b3d1e0;
 }
 
@@ -82,29 +82,18 @@ header p {
   background-color: #ddd;
 }
 
-.submeny-div{
+.submeny-div {
   position: relative;
 }
 
-.aldre-projekt {
-  display: none;
-  position: absolute;
-  background-color: white;
-  flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  float: left;
-  width: 100%;
-  
-}
-
-.aldre-projekt a {
+.submenu a{
   text-decoration: none;
   font-size: 3vh;
   color: black;
-  border:solid 1px black;
+  border: solid 1px black;
 }
 
-.om-oss {
+.submenu{
   display: none;
   position: absolute;
   background-color: white;
@@ -114,46 +103,7 @@ header p {
   width: 100%;
 }
 
-.om-oss a {
-  text-decoration: none;
-  font-size: 3vh;
-  color: black;
-  border:solid 1px black;
-}
 
-.framtida-projekt {
-  display: none;
-  position: absolute;
-  background-color: white;
-  flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  float: left;
-  width: 100%;
-}
-
-.framtida-projekt a {
-  text-decoration: none;
-  font-size: 3vh;
-  color: black;
-  border:solid 1px black;
-}
-
-.kontakta-oss {
-  display: none;
-  position: absolute;
-  background-color: white;
-  flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  float: left;
-  width: 100%;
-}
-
-.kontakta-oss a {
-  text-decoration: none;
-  font-size: 3vh;
-  color: black;
-  border:solid 1px black;
-}
 
 .show {
   display: flex;
