@@ -126,7 +126,8 @@ header p {
 }
 
 #bild2{
-  
+  margin-bottom: 50vh;
+  display: inline-block;
 }
 
 .text-ruta1{
@@ -142,4 +143,10 @@ header p {
 .text{
   margin: 2vh;
   font-size: 200%;
+}
+
+
+.text-ruta3{
+  display: flex;
+  flex-wrap: wrap;
 }
