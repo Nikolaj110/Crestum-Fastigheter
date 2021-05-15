@@ -164,6 +164,48 @@ header p {
   margin-right: 3vw;
   position: relative;
   transform: translate(0, -50%);
-  top:50%;
+  top: 50%;
 }
 
+
+
+footer{
+  background-color: #0b5c7e;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: 5%, 25%, repeat(4, 15%);
+}
+
+.footer-submeny{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 8vh;
+  margin-top: 3vh;
+}
+
+.footer-submeny a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-submeny a:hover{
+  color: #b3d1e0;
+}
+
+.footer-namn{
+  grid-column: 2 / 3;
+}
+
+.footer-nav{
+  grid-column: 3 / 4;
+}
+
+.footer-kontakt{
+  grid-column: 4 / 5;
+}
+
+.footer-samarbeten{
+  grid-column: 5 / 6;
+}
