@@ -22,16 +22,8 @@ header p {
   background-color: aqua;
 }
 
-.text1 {
-  font-size: 200%;
-}
-
 .text-ruta2 {
   background-color: slateblue;
-}
-
-.text2 {
-  font-size: 200%;
 }
 
 .meny-bild-div {
@@ -67,8 +59,8 @@ header p {
 .menyn a {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 140%;
-  padding: 12px 16px;
+  font-size: 1.7vw;
+  padding: 1vw;
   text-decoration: none;
 }
 
